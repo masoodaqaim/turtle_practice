@@ -14,5 +14,7 @@ for x in range(50):
     joe.pencolor('red')
     joe.circle(50)
     joe.left(360/50)
+    joe.pencolor('yellow')
+    joe.circle(25)
 
 turtle.done()
