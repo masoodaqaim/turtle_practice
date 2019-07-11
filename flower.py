@@ -10,7 +10,7 @@ def draw_square(some_turtle):
 def draw_art():
     # Turtle Brad
     brad = Turtle(shape="turtle")
-    brad.color("green")
+    brad.color("blue")
     brad.pensize(2)
     # brad.speed("normal")  # 6/normal is the default so don't need to do it
     brad.speed(0)
@@ -21,10 +21,10 @@ def draw_art():
 
     # Turtle Angie
     angie = Turtle(shape="turtle")
-    angie.color("purple")
+    angie.color("red")
     angie.pensize(2)
     # angie.speed(5)  # slightly slower than brad
-    angie.speed()
+    angie.speed(0)
 
     size = 1
 
